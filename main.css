@@ -20,6 +20,18 @@ body {
 .logo img {
   width: 80px;
 }
+.logo h1{
+  color: white;
+  font-weight: 500;
+  padding: 30px;
+  border: 1px solid rgba(249, 249, 249, 0.201);
+  transition: 0.3s;
+}
+.logo h1:hover{
+  background-color: rgb(254, 219, 219);
+  color: #111111;
+  border-radius: 10px;
+}
 .main_text {
   margin-top: 10vh;
   text-align: center;
